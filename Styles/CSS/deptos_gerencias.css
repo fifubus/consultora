@@ -1,0 +1,57 @@
+
+
+#content{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+/*---------------------------NAVBAR----------------------------*/
+
+#inicio_link{
+    color: #000;
+    position: relative;
+    left: 270px;
+}
+
+#org_link{
+    color: #000;
+    position: relative;
+    left: 270px;
+}
+
+#trab_prev_link{
+    color: #000;
+    position: relative;
+    left: 270px;
+}
+
+/*---------------------------FOOTER----------------------------*/
+
+#footer{
+    background-color: black;
+    color: #000;
+    border: #000;
+}
+
+/*---------------------------MEDIA QUERYS----------------------------*/
+
+@media (max-width: 1200px){
+    #inicio_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+    
+    #qn_som_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+    
+    #trab_prev_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+    
+}

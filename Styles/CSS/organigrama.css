@@ -1,0 +1,445 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*---------------------------NAVBAR----------------------------*/
+
+
+#inicio_link{
+    color: #000;
+    position: relative;
+    left: 270px;
+}
+
+#org_link{
+    color: #000;
+    position: relative;
+    left: 270px;
+}
+
+#trab_prev_link{
+    color: #000;
+    position: relative;
+    left: 270px;
+}
+
+/*---------------------------ORGANIGRAMA----------------------------*/
+
+#titulo_org{
+    padding-top: 50px;
+}
+
+#img_org{
+    padding: 0;
+    margin: 0%;
+}
+
+#org_img{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+/*---------------------------FOOTER----------------------------*/
+
+#footer{
+    background-color: black;
+    color: #000;
+    border: #000;
+}
+
+/*---------------------------MEDIA QUERYS----------------------------*/
+
+@media (max-width:4000px){
+    #inicio_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+    
+    #org_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+    
+    #trab_prev_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+    
+    #org_img{
+        position: relative;
+        left: 150px;
+        padding-left: 100px;
+        padding-right: 100px;
+        height: 600px;
+        width: 1200px;
+    }
+}
+
+@media (max-width:1200px){
+    #inicio_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+    
+    #org_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+    
+    #trab_prev_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+
+    #org_img{
+        padding-left: 40px;
+        padding-right: 100px;
+        height: 600px;
+        width: 1000px;
+    }
+}
+
+@media (max-width:992px){
+    #inicio_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+    
+    #org_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+    
+    #trab_prev_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+
+    #org_img{
+        position: relative;
+        right: 70px;
+        width: 900px;
+        height: 500px;
+    }
+}
+
+@media (max-width:800px){
+    #inicio_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+    
+    #org_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+    
+    #trab_prev_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+
+    #org_img{
+        position: relative;
+        left: 0px;
+        width: 800px;
+        height: 600px;
+    }
+}
+
+@media (max-width:770px){
+    #inicio_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+    
+    #org_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+    
+    #trab_prev_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+
+    #org_img{
+        margin: 0;
+        padding: 0;
+        position: relative;
+        width: 700px;
+        height: 500px;
+    }
+}
+
+@media (max-width:767px){
+    #inicio_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+    
+    #org_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+    
+    #trab_prev_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+    
+    #org_img{
+        margin: 0;
+        padding: 0;
+        position: relative;
+        left: 30px;
+        width: 680px;
+        height: 480px;
+    }
+}
+
+@media (max-width:730px){
+    #inicio_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+    
+    #org_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+    
+    #trab_prev_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+    
+    #org_img{
+        margin: 0;
+        padding: 0;
+        position: relative;
+        left: 30px;
+        width: 590px;
+        height: 490px;
+    }
+}
+
+@media (max-width:650px){
+    #inicio_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+    
+    #org_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+    
+    #trab_prev_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+    
+    #org_img{
+        margin: 0;
+        padding: 0;
+        position: relative;
+        width: 550px;
+        height: 440px;
+    }
+}
+
+@media (max-width:610px){
+    #inicio_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+    
+    #org_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+    
+    #trab_prev_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+    
+    #org_img{
+        margin: 0;
+        padding: 0;
+        position: relative;
+        width: 500px;
+        height: 400px;
+    }
+}
+
+@media (max-width:600px){
+    #inicio_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+    
+    #org_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+    
+    #trab_prev_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+    
+    #org_img{
+        margin: 0;
+        padding: 0;
+        position: relative;
+        width: 450px;
+        height: 300px;
+    }
+}
+
+@media (max-width:500px){
+    #inicio_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+    
+    #org_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+    
+    #trab_prev_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+    
+    #org_img{
+        margin: 0;
+        padding: 0;
+        position: relative;
+        width: 400px;
+        height: 270px;
+    }
+}
+
+@media (max-width:450px){
+    #inicio_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+    
+    #org_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+    
+    #trab_prev_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+    
+    #org_img{
+        margin: 0;
+        padding: 0;
+        position: relative;
+        right: 30px;
+        width: 370px;
+        height: 310px;
+    }
+}
+
+@media (max-width:370px){
+    #inicio_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+    
+    #org_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+    
+    #trab_prev_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+    
+    #org_img{
+        margin: 0;
+        padding: 0;
+        position: relative;
+        width: 290px;
+        height: 190px;
+    }
+}
+
+@media (max-width:305px){
+    #inicio_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+    
+    #org_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+    
+    #trab_prev_link{
+        color: #000;
+        position: relative;
+        left: 0px;
+    }
+    
+    #org_img{
+        margin: 0;
+        padding: 0;
+        position: relative;
+        width: 200px;
+        height: 160px;
+    }
+}

@@ -1,0 +1,614 @@
+
+/*---------------------------NAVBAR----------------------------*/
+
+#logo_csp{
+    text-align: left;
+}
+
+#titulo_csp{
+    position: relative;
+    right: 330px;
+    color: black;
+}
+
+/*---------------------------LINKS----------------------------*/
+
+#depger_link{
+    text-decoration: none;
+    position: relative;
+    top: 120px;
+    left: 150px;
+}
+
+#organigrama_link{
+    text-decoration: none;
+    position: relative;
+    top: 170px;
+    left: 150px;
+}
+
+#trabprev_link{
+    text-decoration: none;
+    position: relative;
+    top: 220px;
+    left: 150px;
+}
+
+/*---------------------------CAROUSEL----------------------------*/
+
+#img_org{
+    padding-left: 300px;
+    padding-right: 300px;
+    position: relative;
+    height: 600px;
+}
+
+#img_tos{
+    padding-left: 300px;
+    padding-right: 300px;
+    position: relative;
+    height: 600px;
+}
+
+#img_amb{
+    padding-left: 300px;
+    padding-right: 300px;
+    position: relative;
+    height: 600px;
+}
+
+/*---------------------------FOOTER----------------------------*/
+
+#footer{
+    background-color: black;
+    color: #000;
+    border: #000;
+}
+
+/*---------------------------MEDIA QUERYS----------------------------*/
+
+@media (max-width:1500px){  
+    #img_org{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    #img_tos{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    #img_amb{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media (max-width:1200px){
+    #titulo_csp{
+        position: relative;
+        left: 0px;
+    }   
+    #img_org{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    #img_tos{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    #img_amb{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media (max-width:1150px){  
+    #titulo_csp{
+        position: relative;
+        left: 0px;
+    } 
+    #img_org{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    #img_tos{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    #img_amb{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media(max-width:992px){
+    #logo_csp{
+        position: relative;
+        left: 0px;
+    }
+    #titulo_csp{
+        position: relative;
+        right: 0px;
+    }   
+    #img_org{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    #img_tos{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    #img_amb{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media(max-width:991px){
+    #logo_csp{
+        position: relative;
+        left: 300px;
+    }
+    #titulo_csp{
+        position: relative;
+        left: 50px;
+    }   
+    #img_org{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    #img_tos{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    #img_amb{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media(max-width:891px){
+    #logo_csp{
+        position: relative;
+        left: 0px;
+    }
+    #titulo_csp{
+        position: relative;
+        left: 50px;
+    }   
+    #img_org{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    #img_tos{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    #img_amb{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media(max-width:835px){
+    #logo_csp{
+        position: relative;
+        left: 0px;
+    }
+    #titulo_csp{
+        position: relative;
+        left: 0px;
+    }   
+    #img_org{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    #img_tos{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    #img_amb{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media(max-width:767px){
+    #logo_csp{
+        position: relative;
+        left: 225px;
+    }
+    #titulo_csp{
+        position: relative;
+        left: 100px;
+    }   
+    #img_org{
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-bottom: 20px;
+        height: 400px;
+    }
+    #img_tos{
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-bottom: 20px;
+        height: 400px;
+    }
+    #img_amb{
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-bottom: 20px;
+        height: 400px;
+    }
+}
+
+@media(max-width:629px){
+    #logo_csp{
+        position: relative;
+        left: 225px;
+    }
+    #titulo_csp{
+        position: relative;
+        left: 10px;
+    }   
+    #img_org{
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-bottom: 20px;
+        height: 400px;
+    }
+    #img_tos{
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-bottom: 20px;
+        height: 400px;
+    }
+    #img_amb{
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-bottom: 20px;
+        height: 400px;
+    }
+}
+
+@media(max-width:580px){
+    #logo_csp{
+        position: relative;
+        left: 225px;
+    }
+    #titulo_csp{
+        position: relative;
+        left: 10px;
+    }   
+    #depger_link{
+        text-decoration: none;
+        position: relative;
+        top: 120px;
+        left: 80px;
+    }
+    
+    #organigrama_link{
+        text-decoration: none;
+        position: relative;
+        top: 170px;
+        left: 80px;
+    }
+    
+    #trabprev_link{
+        text-decoration: none;
+        position: relative;
+        top: 220px;
+        left: 80px;
+    }
+    #img_org{
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-bottom: 20px;
+        height: 400px;
+    }
+    #img_tos{
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-bottom: 20px;
+        height: 400px;
+    }
+    #img_amb{
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-bottom: 20px;
+        height: 400px;
+    }
+}
+
+@media(max-width:580px){
+    #logo_csp{
+        position: relative;
+        left: 225px;
+    }
+    #titulo_csp{
+        position: relative;
+        left: 0px;
+    }   
+    #depger_link{
+        text-decoration: none;
+        position: relative;
+        top: 120px;
+        left: 80px;
+    }
+    
+    #organigrama_link{
+        text-decoration: none;
+        position: relative;
+        top: 170px;
+        left: 80px;
+    }
+    
+    #trabprev_link{
+        text-decoration: none;
+        position: relative;
+        top: 220px;
+        left: 80px;
+    }
+    #img_org{
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-bottom: 20px;
+        height: 400px;
+    }
+    #img_tos{
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-bottom: 20px;
+        height: 400px;
+    }
+    #img_amb{
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-bottom: 20px;
+        height: 400px;
+    }
+}
+
+@media(max-width:530px){
+    #logo_csp{
+        position: relative;
+        left: 200px;
+    }
+    #titulo_csp{
+        position: relative;
+        left: 100px;
+    }   
+    #depger_link{
+        text-decoration: none;
+        position: relative;
+        top: 120px;
+        left: 80px;
+    }
+    
+    #organigrama_link{
+        text-decoration: none;
+        position: relative;
+        top: 170px;
+        left: 80px;
+    }
+    
+    #trabprev_link{
+        text-decoration: none;
+        position: relative;
+        top: 220px;
+        left: 80px;
+    }
+    #img_org{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        height: 300px;
+    }
+    #img_tos{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        height: 300px;
+    }
+    #img_amb{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        height: 300px;
+    }
+}
+
+@media(max-width:460px){
+    #logo_csp{
+        position: relative;
+        left: 165px;
+    }
+    #titulo_csp{
+        position: relative;
+        left: 70px;
+    }   
+    #depger_link{
+        text-decoration: none;
+        position: relative;
+        top: 120px;
+        left: 80px;
+    }
+    
+    #organigrama_link{
+        text-decoration: none;
+        position: relative;
+        top: 170px;
+        left: 80px;
+    }
+    
+    #trabprev_link{
+        text-decoration: none;
+        position: relative;
+        top: 220px;
+        left: 80px;
+    }
+    #img_org{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        height: 300px;
+    }
+    #img_tos{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        height: 300px;
+    }
+    #img_amb{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        height: 300px;
+    }
+}
+
+@media(max-width:420px){
+    #logo_csp{
+        position: relative;
+        left: 145px;
+    }
+    #titulo_csp{
+        position: relative;
+        left: 50px;
+    }   
+    #depger_link{
+        text-decoration: none;
+        position: relative;
+        top: 120px;
+        left: 60px;
+    }
+    
+    #organigrama_link{
+        text-decoration: none;
+        position: relative;
+        top: 170px;
+        left: 60px;
+    }
+    
+    #trabprev_link{
+        text-decoration: none;
+        position: relative;
+        top: 220px;
+        left: 60px;
+    }
+    #img_org{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        height: 300px;
+    }
+    #img_tos{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        height: 300px;
+    }
+    #img_amb{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        height: 300px;
+    }
+}
+
+@media(max-width:385px){
+    #logo_csp{
+        position: relative;
+        left: 135px;
+    }
+    #titulo_csp{
+        position: relative;
+        left: 30px;
+    }   
+    #depger_link{
+        text-decoration: none;
+        position: relative;
+        top: 120px;
+        left: 50px;
+    }
+    
+    #organigrama_link{
+        text-decoration: none;
+        position: relative;
+        top: 170px;
+        left: 50px;
+    }
+    
+    #trabprev_link{
+        text-decoration: none;
+        position: relative;
+        top: 220px;
+        left: 50px;
+    }
+    #img_org{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        height: 300px;
+    }
+    #img_tos{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        height: 300px;
+    }
+    #img_amb{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        height: 300px;
+    }
+}
+
+@media(max-width:375px){
+    #logo_csp{
+        position: relative;
+        left: 135px;
+    }
+    #titulo_csp{
+        position: relative;
+        left: 30px;
+    }   
+    #depger_link{
+        text-decoration: none;
+        position: relative;
+        top: 120px;
+        left: 50px;
+    }
+    
+    #organigrama_link{
+        text-decoration: none;
+        position: relative;
+        top: 170px;
+        left: 50px;
+    }
+    
+    #trabprev_link{
+        text-decoration: none;
+        position: relative;
+        top: 220px;
+        left: 50px;
+    }
+    #img_org{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        height: 300px;
+    }
+    #img_tos{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        height: 300px;
+    }
+    #img_amb{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        height: 300px;
+    }
+}
